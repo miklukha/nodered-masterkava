@@ -19,11 +19,11 @@
   "env": {
     "NODE_RED_USERNAME": {
       "description": "Set Username for Node-RED UI editor.",
-      "value": ""
+      "value": "masterkava"
     },
     "NODE_RED_PASSWORD": {
       "description": "Set Password for Node-RED UI editor.",
-      "value": ""
+      "value": "vfcnthrfdf31."
     }
   }
 }

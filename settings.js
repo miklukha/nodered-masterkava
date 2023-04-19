@@ -303,6 +303,41 @@ var settings = module.exports = {
             //audit: false
         }
     },
+    
+     editorTheme: {
+    /** The following property can be used to set a custom theme for the editor.
+     * See https://github.com/node-red-contrib-themes/theme-collection for
+     * a collection of themes to chose from.
+     */
+    //theme: "",
+
+    /** To disable the 'Welcome to Node-RED' tour that is displayed the first
+     * time you access the editor for each release of Node-RED, set this to false
+     */
+    //tours: false,
+
+    palette: {
+      /** The following property can be used to order the categories in the editor
+       * palette. If a node's category is not in the list, the category will get
+       * added to the end of the palette.
+       * If not set, the following default order is used:
+       */
+      //categories: ['subflows', 'common', 'function', 'network', 'sequence', 'parser', 'storage'],
+    },
+
+    projects: {
+      /** To enable the Projects feature, set this value to true */
+      enabled: true,
+      workflow: {
+        /** Set the default projects workflow mode.
+         *  - manual - you must manually commit changes
+         *  - auto - changes are automatically committed
+         * This can be overridden per-user from the 'Git config'
+         * section of 'User Settings' within the editor
+         */
+        mode: 'manual',
+      },
+    },
 
     /** Context Storage
      * The following property can be used to enable context storage. The configuration
